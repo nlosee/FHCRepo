@@ -108,7 +108,7 @@ const routes = [
     ],
   },
   {
-    name: "sections",
+    name: "Brewing Guides",
     icon: <Icon>view_day</Icon>,
     collapse: [
       {
