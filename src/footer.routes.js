@@ -4,17 +4,12 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
-// Material Kit 2 React components
-import MKTypography from "components/MKTypography";
-
 // Images
 import logoCT from "assets/images/logo-ct-dark.png";
 
-const date = new Date().getFullYear();
-
 export default {
   brand: {
-    name: "Material Kit 2",
+    name: "From Home Coffee",
     image: logoCT,
     route: "/",
   },
@@ -72,20 +67,4 @@ export default {
       ],
     },
   ],
-  copyright: (
-    <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
-      <MKTypography
-        component="a"
-        href="https://www.creative-tim.com"
-        target="_blank"
-        rel="noreferrer"
-        variant="button"
-        fontWeight="regular"
-      >
-        Creative Tim
-      </MKTypography>
-      .
-    </MKTypography>
-  ),
 };

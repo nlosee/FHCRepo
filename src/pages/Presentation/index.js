@@ -1,18 +1,3 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
@@ -53,8 +38,8 @@ function Presentation() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "https://www.fromhomecoffee.com/pages/authentication/sign-in",
+          label: "Sign In",
           color: "info",
         }}
         sticky
@@ -83,7 +68,7 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
+              From Home Coffee{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -92,8 +77,7 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              Great Coffee From Home
             </MKTypography>
           </Grid>
         </Container>
@@ -170,7 +154,7 @@ function Presentation() {
                   Thank you for your support!
                 </MKTypography>
                 <MKTypography variant="body1" color="text">
-                  We deliver the best web products
+                  We deliver the best coffee tips
                 </MKTypography>
               </Grid>
               <Grid

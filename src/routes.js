@@ -112,8 +112,8 @@ const routes = [
     icon: <Icon>view_day</Icon>,
     collapse: [
       {
-        name: "page sections",
-        description: "See all sections",
+        name: "Pot of Coffee",
+        description: "Covered container with a spout",
         dropdown: true,
         collapse: [
           {
@@ -129,8 +129,8 @@ const routes = [
         ],
       },
       {
-        name: "navigation",
-        description: "See all navigations",
+        name: "Pour Over",
+        description: "Pouring hot water over coffee grounds",
         dropdown: true,
         collapse: [
           {
@@ -151,8 +151,8 @@ const routes = [
         ],
       },
       {
-        name: "input areas",
-        description: "See all input areas",
+        name: "French Press",
+        description: "Grounds immersed in hot water, filtered",
         dropdown: true,
         collapse: [
           {
@@ -168,8 +168,8 @@ const routes = [
         ],
       },
       {
-        name: "attention catchers",
-        description: "See all examples",
+        name: "Espresso",
+        description: "Fine grounds, high water pressure",
         dropdown: true,
         collapse: [
           {
@@ -190,8 +190,8 @@ const routes = [
         ],
       },
       {
-        name: "elements",
-        description: "See all 32 examples",
+        name: "Cold Brew",
+        description: "Slow steeped coffee, cool water temps",
         dropdown: true,
         collapse: [
           {
