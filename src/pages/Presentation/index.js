@@ -31,6 +31,8 @@ import footerRoutes from "footer.routes";
 // Images
 import bgImage from "assets/images/bg-presentation.jpg";
 
+// import bgImage2 from "assets/images/apple-icon.png";
+
 function Presentation() {
   return (
     <>
@@ -77,7 +79,7 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Great Coffee From Home
+              Make Great Coffee From Home
             </MKTypography>
           </Grid>
         </Container>
@@ -94,12 +96,13 @@ function Presentation() {
         }}
       >
         <Counters />
+        <Container sx={{ mt: 6 }}>
+          <BuiltByDevelopers />
+          <DesignBlocks />
+        </Container>
         <Information />
         <DesignBlocks />
         <Pages />
-        <Container sx={{ mt: 6 }}>
-          <BuiltByDevelopers />
-        </Container>
         <Container>
           <Grid container spacing={3}>
             <Grid item xs={12} lg={4}>

@@ -70,7 +70,7 @@ import Typography from "layouts/sections/elements/typography";
 
 const routes = [
   {
-    name: "pages",
+    name: "Buy Coffee Gear",
     icon: <Icon>dashboard</Icon>,
     columns: 1,
     rowsPerColumn: 2,
@@ -239,7 +239,7 @@ const routes = [
     ],
   },
   {
-    name: "docs",
+    name: "Blog",
     icon: <Icon>article</Icon>,
     collapse: [
       {

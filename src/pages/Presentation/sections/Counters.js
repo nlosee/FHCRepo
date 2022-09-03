@@ -31,7 +31,7 @@ function Counters() {
         <Grid container item xs={12} lg={9} sx={{ mx: "auto" }}>
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
-              count={12}
+              count={1299}
               suffix="+"
               title="Coffees Reviewed "
               description="We test the best coffees and brewing methods so you don't have to. But we're not stopping you!"
